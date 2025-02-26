@@ -1,0 +1,39 @@
+/* #atribute class = atribute yang boleh di pakai di mana saja 
+atribute id = hanya bisa diedit dengan id tertentu */
+/* */
+
+body {
+    background-color: #FFF2F2;
+}
+/* 
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+} */
+
+/* selector group by */
+/* h1, h2, h3 {
+    color: #A9B5DF ;
+    background-color: black;
+} */
+
+/* atribute id */
+/* #list1 {
+    color: #2D336B;
+} */
+
+/* atribute class */
+/* .mark {
+    background-color: aquamarine;
+} */
+
+/* span {
+    color: #2D336B;
+} */

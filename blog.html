@@ -1,0 +1,71 @@
+<!--  descendant selector = selector lebih spesifik -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog html</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+        /* descendent selector */
+       /* .jokes p {
+            color: aqua;
+            font-size: 15px;
+        } */
+        /* direct descendent */
+        .jokes > p {
+            color: black;
+            font-size: 15px;
+        }
+
+        /* adjust selector */
+        a + button {
+            background-color: grey;
+        }
+
+        /* input[type="text"] {
+            color: red;
+        } */
+         section h3::first-letter{
+            font-size: x-large;
+         }
+
+         section h3::before{
+            content: '@';
+         }
+
+         section p::first-line{
+            color: red;
+         }
+    </style>
+</head>
+<body>
+    <h1>kumpulan beberapa halllo</h1>
+    <input type="text" placeholder="search"> <button>search</button>
+    <!-- <input type="password" name=""> -->
+    <hr>
+    <section class="jokes">
+        <h3>hallo ini dengan siapa</h3>
+        <p>dipublish oleh : <span>john</span></p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste velit rerum repudiandae excepturi, unde sed! Eos ut sequi sit, fugit, deleniti eligendi a nihil asperiores unde, ex accusamus sapiente?</p>
+        </div>
+        <button>vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>hallo gais</h3>
+        <p>dipublish oleh : <span>asep</span></p>
+        <button>vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>hallo bro</h3>
+        <p>dipublish oleh : <span>boti</span></p>
+        <button>vote +</button>
+    </section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit autem ratione, explicabo neque sapiente! Ratione illo blanditiis, perferendis libero fuga amet quaerat eaque quasi magnam delectus facilis doloremque doloribus.</p>
+    <a href="#">link</a>
+    <button>kirim</button>
+</body>
+</html>
